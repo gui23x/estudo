@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./index.jpg);
+    background-size: cover;
+}
+.wrapper {
+    margin: 10vh;
+    color: #fff;
+}
+
+.card {
+    border: none;
+    overflow: hidden;
+    border-radius: 20px;
+    min-height: 350px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.712);
+    background: #ffffff13;
+
+    @media (max-width: 768px) {
+        min-height: 350px;
+    }
+
+    @media (max-width: 420px) {
+        min-height: 300px;
+    }
+}
+
+@media (max-width: 767px) {
+}
+
+.cartao1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./biologia.png);
+    background-size: cover;
+}
+
+.link {
+    color: #fff;
+    text-decoration: none;
+}
